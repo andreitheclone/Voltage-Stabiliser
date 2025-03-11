@@ -1,0 +1,60 @@
+\t (00:00:06) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Sun Dec 15 16:31:49 2024
+\t (00:00:06)         Host=DESKTOP-23I1FI2 User=gutaa Pid=1536 CPUs=12
+\t (00:00:06) CmdLine= D:\ORCAD\tools\bin\allegro.exe
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:06) Starting new design...
+\i (00:00:07) trapsize 669
+\i (00:00:07) trapsize 684
+\i (00:00:07) trapsize 1114
+\i (00:00:07) trapsize 1079
+\i (00:00:07) trapsize 11053
+\i (00:00:07) trapsize 1120
+\i (00:00:08) generaledit 
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 12341.3 10907.8
+\i (00:00:11) trapsize 560
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 10092.2 10728.6
+\i (00:00:11) trapsize 280
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 10097.8 10706.3
+\i (00:00:11) trapsize 140
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 10100.7 10658.7
+\i (00:00:11) trapsize 280
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 10106.2 10630.7
+\i (00:00:11) trapsize 560
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 10117.4 10574.6
+\i (00:00:11) trapsize 1120
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 12677.2 9855.1
+\i (00:00:11) trapsize 1120
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 12677.2 9855.1
+\i (00:00:12) trapsize 1120
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 12677.2 9855.1
+\i (00:00:12) trapsize 1120
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 12610.0 9855.1
+\i (00:00:12) trapsize 1120
+\i (00:00:14) open 
+\i (00:00:26) fillin "C:\Users\gutaa\Desktop\P1_2024_434D_Guta_Andrei_Petrisor_SERS_N13_OrCAD\P1_2024_434D_Guta_Andrei_Petrisor_SERS_N13_PSPICE\Layout\PCB.brd"
+\i (00:00:26) cd "C:\Users\gutaa\Desktop\P1_2024_434D_Guta_Andrei_Petrisor_SERS_N13_OrCAD\P1_2024_434D_Guta_Andrei_Petrisor_SERS_N13_PSPICE\Layout"
+\t (00:00:26) Opening existing design...
+\i (00:00:26) trapsize 6917
+\t (00:00:26)     Journal end - Sun Dec 15 16:32:08 2024

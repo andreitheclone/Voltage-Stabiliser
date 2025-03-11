@@ -1,0 +1,7 @@
+ lib=D:\ORCAD\tools\PSpice\Library\ebipolar.lib, offset=20762, size=367
+ lib=D:\ORCAD\tools\PSpice\Library\ebipolar.lib, offset=25312, size=368
+ lib=D:\ORCAD\tools\PSpice\Library\PSpiceModelApps.lib, offset=125, size=215
+ lib=D:\ORCAD\tools\PSpice\Library\bjn.lib, offset=931858, size=1549
+ lib=D:\ORCAD\tools\PSpice\Library\breakout.lib, offset=9201, size=133
+ lib=D:\ORCAD\tools\PSpice\Library\diz.lib, offset=243012, size=681
+ lib=D:\ORCAD\tools\PSpice\Library\templates.lib, offset=13466, size=8781

@@ -1,0 +1,175 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Testprep Automatic Log File                                      )
+(                                                                     )
+(    Drawing          : PCB.brd                                       )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Sun Dec 15 14:11:17 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ Probes accessing bottom of the board.
+ Pad type restricted to 'THRU'.
+ Pin type restricted to 'ANY POINT'.
+ Minimum pad dimension is : 0.0000
+ Test pad grid: X: 0.0000 Y: 0.0000
+ Minimum test point spacing is : 0.0000
+ No test points allowed under components.
+ Component representation is ASSEMBLY data.
+ Bare board switch off, no test points allowed on
+   component pins on tested side.
+ Tested one pin per net.
+ No unused pins tested.
+ Testing allowed directly on pin.
+ No direct trace testing allowed.
+ Automatic test point insertion disabled.
+ Test pad displacement: Min: 0.0000, Max: 0.0000
+ Via replacement NOT allowed.
+ Cline bubbling  allowed.
+ Test SMT/blind pad: 
+ Test thru via     : 
+ Executed in OVERWRITE mode.
+ Probe text angle: 0 degrees.
+ Probe text offset: X: 0.0000 Y: 0.0000
+
+
+  NET        PIN                                        PROBE TEXT
+==================================================================
+
+Processing net N818700 (1 out of 33),(c=0, f=0, i=0).
+ Net N818700 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N820880 (2 out of 33),(c=0, f=1, i=0).
+ Net N820880 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N822560 (3 out of 33),(c=0, f=2, i=0).
+ Net N822560 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N824820 (4 out of 33),(c=0, f=3, i=0).
+ Net N824820 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N115983 (5 out of 33),(c=0, f=4, i=0).
+ Net N115983 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N82156 (6 out of 33),(c=0, f=5, i=0).
+  N82156     VIA             @(     8.5200,    14.3000) N82156      
+
+Processing net N81654 (7 out of 33),(c=1, f=5, i=0).
+  N81654     VIA             @(    28.7400,    30.2700) N81654      
+
+Processing net N81558 (8 out of 33),(c=2, f=5, i=0).
+  N81558     VIA             @(     7.5500,     2.8700) N81558      
+
+Processing net N101727 (9 out of 33),(c=3, f=5, i=0).
+ Net N101727 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N97333 (10 out of 33),(c=3, f=6, i=0).
+ Net N97333 NOT ACCESSIBLE from bottom side.
+    (non-thru=3)
+
+Processing net N81946 (11 out of 33),(c=3, f=7, i=0).
+ Net N81946 NOT ACCESSIBLE from bottom side.
+    (non-thru=4)
+
+Processing net N82766 (12 out of 33),(c=3, f=8, i=0).
+ Net N82766 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N81936 (13 out of 33),(c=3, f=9, i=0).
+ Net N81936 NOT ACCESSIBLE from bottom side.
+    (non-thru=5)
+
+Processing net N817060 (14 out of 33),(c=3, f=10, i=0).
+ Net N817060 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N82536 (15 out of 33),(c=3, f=11, i=0).
+ Net N82536 NOT ACCESSIBLE from bottom side.
+    (non-thru=3)
+
+Processing net N826300 (16 out of 33),(c=3, f=12, i=0).
+ Net N826300 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N817300 (17 out of 33),(c=3, f=13, i=0).
+ Net N817300 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net 0 (18 out of 33),(c=3, f=14, i=0).
+ Net 0 NOT ACCESSIBLE from bottom side.
+    (non-thru=10)
+
+Processing net N89468 (19 out of 33),(c=3, f=15, i=0).
+ Net N89468 NOT ACCESSIBLE from bottom side.
+    (non-thru=3)
+
+Processing net N121141 (20 out of 33),(c=3, f=16, i=0).
+ Net N121141 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N81636 (21 out of 33),(c=3, f=17, i=0).
+ Net N81636 NOT ACCESSIBLE from bottom side.
+    (non-thru=3)
+
+Processing net N82330 (22 out of 33),(c=3, f=18, i=0).
+ Net N82330 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N82336 (23 out of 33),(c=3, f=19, i=0).
+ Net N82336 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N817840 (24 out of 33),(c=3, f=20, i=0).
+ Net N817840 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N82188 (25 out of 33),(c=3, f=21, i=0).
+ Net N82188 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N98325 (26 out of 33),(c=3, f=22, i=0).
+  N98325     VIA             @(    21.2600,    21.1200) N98325      
+
+Processing net N825941 (27 out of 33),(c=4, f=22, i=0).
+ Net N825941 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N98034 (28 out of 33),(c=4, f=23, i=0).
+ Net N98034 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N98024 (29 out of 33),(c=4, f=24, i=0).
+ Net N98024 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N82730 (30 out of 33),(c=4, f=25, i=0).
+  N82730     VIA             @(     9.2000,    21.7300) N82730      
+
+Processing net N925970 (31 out of 33),(c=5, f=25, i=0).
+ Net N925970 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N89953 (32 out of 33),(c=5, f=26, i=0).
+ Net N89953 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+Processing net N987480 (33 out of 33),(c=5, f=27, i=0).
+ Net N987480 NOT ACCESSIBLE from bottom side.
+    (non-thru=2)
+
+  Total nets processed:	33
+
+  Total nets failed:	28
+  Total nets ignored: 0
+  Total warnings: 0
+
+  Total test points on bottom:	5
+
+  Test Point Total:	5

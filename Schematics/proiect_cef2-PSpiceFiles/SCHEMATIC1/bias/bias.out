@@ -1,0 +1,346 @@
+
+**** 11/22/24 16:27:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\gutaa\Desktop\P1_2024_434D_Guta_Andrei_Petrisor_SERS_N13_PSPICE\Schematics\proiect_cef2-PS
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\gutaa\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OP
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_CEF2
+I_I1         N81646 0 DC 0Adc  
+X_R38         N82500 N82500 N826640 POT PARAMS: SET=1 VALUE=100
+R_R36         N82536 N82336 100
+R_R63         N82468 N82150 1k
+Q_Q2         N81946 N81940 N82330 BC846B 
+X_D14         N82468 0 LED PARAMS: IS=1.7603e-027 RS=2  BV=5 IBV=10e-6         
+R_R6         0 N82724 5k
+R_R28         N81646 N81636 1.28
+R_R50         N826300 N824820 150
+R_R53         N820220 N818140 22
+X_Q17         N81552 N81768 N81636 awbmjd31c PARAMS:                           
++                  
+R_R39         N827820 N826640 4.7
+R_R5         N818140 N81646 1.5k
+R_R54         N821740 N820220 33
+X_V5         N81552 0 VDCN PARAMS: DC=26 NVAL=0.1 
+Q_Q3         N81936 N82320 N82336 BC846B 
+R_R43         N82934 N827820 1
+R_R62         N82150 N81552 1k
+R_R11         0 N82766 2.2k
+Q_Q8         N82536 N82468 N82766 BC846B 
+R_R57         N822560 N820880 10
+Q_Q15         N81936 N82500 0 BC846B 
+R_R3         N81940 N81552 1.5k
+X_Q18         N81552 N81936 N81768 awbmjd31c PARAMS:                           
++                  
+R_R45         N82988 N82934 4.7
+R_R35         N82536 N82330 100
+X_R4         N82530 N82320 N82724 POT PARAMS: SET=0 VALUE=5k
+R_R44         N82988 N82934 4.7
+Q_Q16         N81552 N81940 N82188 BC846B 
+Q_Q5         N81936 N81946 N817300 BC856B 
+R_R58         N824820 N822560 10
+R_R55         N82530 N821740 4.7
+R_R46         0 N82988 0.47
+X_D16         0 N81940 awbbzx84c5v6 PARAMS:               
+R_R8         N817300 N81552 510
+R_R56         N820880 N818700 100
+R_R19         0 N821361 2.2k
+R_R51         0 N826300 150
+R_R37         N82500 N82188 1k
+R_R7         N817060 N81552 510
+X_D15         N81646 N821361 LED PARAMS: IS=1.7603e-027 RS=2  BV=5 IBV=10e-6   
++       
+R_R59         N818700 N81646 100
+Q_Q9         N81936 N81636 N81646 BC846B 
+Q_Q4         N81946 N81946 N817060 BC856B 
+.PARAM  rl=520 set=1
+
+**** RESUMING bias.cir ****
+.END
+
+**** 11/22/24 16:27:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\gutaa\Desktop\P1_2024_434D_Guta_Andrei_Petrisor_SERS_N13_PSPICE\Schematics\proiect_cef2-PS
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_D14.model201  X_D15.model201  
+          IS    1.760300E-27    1.760300E-27 
+           N    2               2            
+          BV    5               5            
+         IBV   10.000000E-06   10.000000E-06 
+          RS    2               2            
+
+
+**** 11/22/24 16:27:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\gutaa\Desktop\P1_2024_434D_Guta_Andrei_Petrisor_SERS_N13_PSPICE\Schematics\proiect_cef2-PS
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC846B          BC856B          X_Q17.model4    X_Q18.model4    
+               NPN             PNP             NPN             NPN             
+       LEVEL    1               1               1               1            
+          IS    7.049000E-15  336.700000E-15  113.200000E-15  113.200000E-15 
+          EG                                    1.11            1.11         
+          BF  279.1           277.7           211.9           211.9          
+          NF    1               1               1               1            
+         VAF   62.37           62.37          100             100            
+         IKF     .2201           .1686           .5781           .5781       
+         ISE   59.160000E-15    1.966000E-12    1.128000E-12    1.128000E-12 
+          NE    1.81            2.123           1.49            1.49         
+          BR    3.816           7.16             .2471           .2471       
+          NR    1               1               1               1            
+         VAR                                   50              50            
+         IKR    1.859           9.677           1.000000E+09    1.000000E+09 
+         ISC   16.170000E-15  196.000000E-12                                 
+          NC    2.394           1.815                                        
+          NK     .6305           .545                                        
+         ISS    0               0               0               0            
+          RB                                    1.148           1.148        
+         RBM                                    1.148           1.148        
+         IRB                                     .3              .3          
+          RE    0               0                .01778          .01778      
+          RC    1.508           2.891            .1022           .1022       
+         CJE    9.485000E-12    8.397000E-12  320.700000E-12  320.700000E-12 
+         VJE     .5              .5              .6789           .6789       
+         MJE     .3333           .3865           .5601           .5601       
+         CJC    7.287000E-12   11.510000E-12  312.600000E-12  312.600000E-12 
+         VJC     .5              .5              .6379           .6379       
+         MJC     .3333           .3626           .4495           .4495       
+        XCJC    1               1               1               1            
+         CJS    0               0               1.000000E-12    1.000000E-12 
+         VJS     .75             .75             .75             .75         
+          TF  664.000000E-12  605.900000E-12   44.350000E-09   44.350000E-09 
+         XTF  147              23.02             .02393          .02393      
+         VTF   10              10             367.200000E+03  367.200000E+03 
+         ITF    4.664           2.133            .01946          .01946      
+          TR   10.000000E-09   10.000000E-09  272.700000E-09  272.700000E-09 
+         XTB    1.5             1.5             1.45            1.45         
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.42            2.2             2.42            2.42         
+           D     .87             .52             .87             .87         
+
+
+**** 11/22/24 16:27:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\gutaa\Desktop\P1_2024_434D_Guta_Andrei_Petrisor_SERS_N13_PSPICE\Schematics\proiect_cef2-PS
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N81552)   26.0500 (N81636)   13.0430 (N81646)   13.0040 (N81768)   13.7230     
+
+(N81936)   14.2690 (N81940)    5.6159 (N81946)   25.2370 (N82150)   14.5140     
+
+(N82188)    4.9201 (N82320)    5.6197 (N82330)    4.9756 (N82336)    4.9757     
+
+(N82468)    2.9789 (N82500)     .4817 (N82530)   11.2480 (N82536)    4.9232     
+
+(N82724)    5.6197 (N82766)    2.3142 (N82934)     .0125 (N82988)     .0021     
+
+(X_V5.M)   26.0000 (N817060)   25.7840                   (N817300)   25.7810    
+
+(N818140)   11.3150                   (N818700)   10.5030                       
+
+(N820220)   11.2900                   (N820880)    8.0023                       
+
+(N821361)   10.0860                   (N821740)   11.2530                       
+
+(N822560)    7.7522                   (N824820)    7.5021                       
+
+(N826300)    3.7511                   (N826640)     .0378                       
+
+(N827820)     .0170                   (X_D16.xinstbzx84c5v6.1)     .4910        
+
+(X_D16.xinstbzx84c5v6.3)    5.1249    (X_D16.xinstbzx84c5v6.9) 161.9E-06    
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    X_V5.VDC    -6.135E-02
+
+    TOTAL POWER DISSIPATION   1.60E+00  WATTS
+
+
+**** 11/22/24 16:27:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\gutaa\Desktop\P1_2024_434D_Guta_Andrei_Petrisor_SERS_N13_PSPICE\Schematics\proiect_cef2-PS
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** VOLTAGE-CONTROLLED VOLTAGE SOURCES
+
+
+NAME         X_V5.E1     X_D16.xinstbzx84c5v6.EVA          
+V-SOURCE     4.988E-02   5.125E+00                        
+I-SOURCE    -6.135E-02   1.361E-02                        
+
+
+**** DIODES
+
+
+NAME         X_D14.D_LED             X_D15.D_LED           
+MODEL        X_D14.model201          X_D15.model201        
+ID           1.15E-02                4.58E-03             
+VD           2.98E+00                2.92E+00             
+REQ          4.49E+00                1.13E+01             
+CAP          0.00E+00                0.00E+00             
+
+NAME         X_D16.xinstbzx84c5v6.DT1          
+MODEL        X_D16.xinstbzx84c5v6.M1MDT1       
+ID           1.36E-02                         
+VD           4.91E-01                         
+REQ          1.14E+00                         
+CAP          0.00E+00                         
+
+NAME         X_D16.xinstbzx84c5v6.DF1          
+MODEL        X_D16.xinstbzx84c5v6.M1MDF1       
+ID          -5.62E-12                         
+VD          -5.62E+00                         
+REQ          1.00E+12                         
+CAP          1.65E-11                         
+
+
+**** BIPOLAR JUNCTION TRANSISTORS
+
+
+NAME         Q_Q2        Q_Q3        Q_Q8        Q_Q15       Q_Q16     
+MODEL        BC846B      BC846B      BC846B      BC846B      BC846B    
+IB           1.48E-06    1.71E-06    3.75E-06    4.83E-09    1.23E-05 
+IC           5.22E-04    5.23E-04    1.05E-03    1.05E-06    4.43E-03 
+VBE          6.40E-01    6.44E-01    6.65E-01    4.82E-01    6.96E-01 
+VBC         -1.96E+01   -8.65E+00   -1.94E+00   -1.38E+01   -2.04E+01 
+VCE          2.03E+01    9.29E+00    2.61E+00    1.43E+01    2.11E+01 
+BETADC       3.53E+02    3.07E+02    2.80E+02    2.18E+02    3.59E+02 
+GM           2.01E-02    2.02E-02    4.03E-02    4.07E-05    1.68E-01 
+RPI          1.78E+04    1.54E+04    6.97E+03    6.38E+06    2.11E+03 
+RX           0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+RO           1.57E+05    1.36E+05    6.14E+04    7.23E+07    1.87E+04 
+CBE          3.15E-11    3.16E-11    4.53E-11    1.57E-11    1.31E-10 
+CBC          2.13E-12    2.77E-12    4.29E-12    2.38E-12    2.10E-12 
+CJS          0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+BETAAC       3.58E+02    3.10E+02    2.81E+02    2.60E+02    3.54E+02 
+CBX/CBX2     0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+FT/FT2       9.52E+07    9.33E+07    1.29E+08    3.59E+05    2.01E+08 
+
+
+
+NAME         Q_Q5        Q_Q9        Q_Q4        X_Q17.Qmjd31c_0       
+MODEL        BC856B      BC846B      BC856B      X_Q17.model4          
+IB          -1.66E-06   -2.61E-13   -1.92E-06    1.87E-04             
+IC          -5.26E-04    1.66E-12   -5.19E-04    3.05E-02             
+VBE         -5.43E-01    3.93E-02   -5.47E-01    6.80E-01             
+VBC          1.10E+01   -1.23E+00    0.00E+00   -1.23E+01             
+VCE         -1.15E+01    1.27E+00   -5.47E-01    1.30E+01             
+BETADC       3.18E+02   -6.36E+00    2.71E+02    1.63E+02             
+GM           2.03E-02    1.25E-12    2.00E-02    1.13E+00             
+RPI          1.58E+04    3.41E+11    1.37E+04    1.52E+02             
+RX           0.00E+00    0.00E+00    0.00E+00    1.15E+00             
+RO           1.39E+05    9.61E+11    1.20E+05    3.63E+03             
+CBE          2.83E-11    9.75E-12    2.81E-11    5.16E-08             
+CBC          3.70E-12    4.82E-12    1.15E-11    8.07E-11             
+CJS          0.00E+00    0.00E+00    0.00E+00    1.00E-12             
+BETAAC       3.21E+02    4.26E-01    2.73E+02    1.71E+02             
+CBX/CBX2     0.00E+00    0.00E+00    0.00E+00    0.00E+00             
+FT/FT2       1.01E+08    1.37E-02    8.02E+07    3.48E+06             
+
+
+
+NAME         X_Q18.Qmjd31c_0       
+MODEL        X_Q18.model4          
+IB           2.39E-06             
+IC           1.85E-04             
+VBE          5.46E-01             
+VBC         -1.18E+01             
+VCE          1.23E+01             
+BETADC       7.72E+01             
+GM           7.13E-03             
+RPI          1.39E+04             
+RX           1.15E+00             
+RO           6.00E+05             
+CBE          9.50E-10             
+CBC          8.23E-11             
+CJS          1.00E-12             
+BETAAC       9.89E+01             
+CBX/CBX2     0.00E+00             
+FT/FT2       1.10E+06             
+
+
+
+          JOB CONCLUDED
+
+**** 11/22/24 16:27:34 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\gutaa\Desktop\P1_2024_434D_Guta_Andrei_Petrisor_SERS_N13_PSPICE\Schematics\proiect_cef2-PS
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

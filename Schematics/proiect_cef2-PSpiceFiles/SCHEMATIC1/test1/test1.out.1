@@ -1,0 +1,87 @@
+
+**** 11/30/24 00:01:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test1"  [ c:\users\gutaa\desktop\p1_2024_434d_guta_andrei_petrisor_sers_n13_orcad\p1_2024_434d_guta_andrei_p
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\gutaa\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN I1 0 0.9 0.01 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_CEF2
+R_R36         N82536 N82336 100
+Q_Q2         N81946 N82156 N82330 BC846B 
+X_D14         N82730 0 LED PARAMS: IS=1.7603e-027 RS=2  BV=5 IBV=10e-6         
+R_R6         N98034 N98024 4.7k
+R_R50         N826300 N824820 150
+X_Q17         N81552 N81768 N81636 awbmjd31c PARAMS:                           
++                  
+R_R5         N818140 N81654 1.5k
+Q_Q3         N81936 N98325 N82336 BC846B 
+R_R11         0 N82766 2.2k
+Q_Q8         N82536 N82730 N82766 BC846B 
+R_R57         N822560 N820880 10
+Q_Q15         N81936 N82562 0 BC846B 
+R_R3         N817840 N81552 2k
+R_R35         N82536 N82330 100
+X_R4         N825941 N98325 N98024 POT PARAMS: SET=1 VALUE=5k
+Q_Q16         N81552 N82156 N82188 BC846B 
+Q_Q5         N81936 N81946 N817300 BC856B 
+R_R58         N824820 N822560 10
+X_D16         0 N82156 awbbzx84c5v6 PARAMS:               
+R_R8         N817300 N81552 510
+R_R56         N820880 N818700 100
+R_R19         0 N89953 2.2k
+R_R51         0 N826300 150
+R_R37         N823760 N82188 910
+R_R7         N817060 N81552 510
+X_D15         N81654 N89953 LED PARAMS: IS=1.7603e-027 RS=2  BV=5 IBV=10e-6    
++      
+R_R59         N818700 N81654 100
+Q_Q9         N81936 N81636 N81654 BC846B 
+Q_Q4         N81946 N81946 N817060 BC856B 
+V_V6         N81552 0 26
+Q_Q18         N81552 N81936 N81768 BC846B 
+R_R64         N81654 N89468 1
+R_R65         N81654 N89468 4.7
+R_R82         N925970 N81552 510
+R_R100         N97325 N823760 10
+R_R101         N82562 N97325 10
+R_R102         N82562 N97325 10
+R_R103         0 N98034 330
+R_R104         N981740 N818140 68
+R_R105         N825941 N981740 22
+R_R106         N987480 N925970 680
+R_R107         N82730 N987480 820
+R_R108         N82156 N817840 680
+R_R109         N89468 N81636 0.47
+R_R110         0 N82562 100
+.PARAM  rl=520 set=1
+
+**** RESUMING test1.cir ****
+.END
+
+ERROR(ORPSIM-15090): DC device I1 is undefined
+
